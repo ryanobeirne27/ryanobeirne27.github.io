@@ -1,0 +1,151 @@
+body{
+	background:rgba(255,165,0,0.1);
+	color:black;
+	line-height: 1.5
+}
+
+p, ul{
+	font-family:helvetica;
+	font-size:20px;
+}
+
+#main{
+	color:black;
+	font-family:book antiqua;
+	border: 6px solid red;
+	background-color:lightgray;
+	text-align:center;
+	font-size:40px;	
+}
+
+h2, h3{
+	font-family:book antiqua;
+	font-size:30px;
+}
+
+img{
+	border:2px black solid;
+	height:200px;
+	width:200px;
+}
+
+@media(min-width:768px){
+.cont{
+	display:flex;
+	padding:15px;
+}	
+
+.cont1{
+	flex:1;
+}
+
+.cont2{
+	flex:1;
+	float:right;
+	padding:30px;
+}
+
+
+.container{
+	display:flex;
+	border:1px black solid;
+	padding:15px;
+	flex-direction:column;
+	margin:5px;
+}
+
+.container2{
+	display:flex;
+	border:1px black solid;
+	padding:15px;
+	flex-direction:column;
+	margin:5px;
+}
+
+.container3{
+	display:flex;
+	padding:15px;
+	align-items:flex-start;
+	margin:5px;
+}
+
+.container4{
+	display:flex;
+	padding:15px;
+	justify-content:center;
+	margin:5px;
+}
+
+.column1{
+	background-color:mistyrose;
+	order:1;
+}
+.column2{
+	background-color:palegreen;
+	order:3;
+}
+
+.column3{
+	background-color:skyblue;
+	order:2;
+}
+
+.box1{
+	padding:15px;
+	flex:1;
+	order:1;
+}
+
+.box2{
+	padding:15px;
+	flex:1;
+	order:3;
+}
+
+.box3{
+	padding:15px;
+	flex:1;
+	order:2;
+}
+
+.box4{
+	padding:15px;
+	flex-basis:25%;
+}
+
+.box5{
+	padding:15px;
+	flex-basis:25%;
+}
+
+}
+
+.border{
+	border:1px black solid;
+}
+	
+.boldUl{
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+.job{
+	font-family:helvetica;
+	font-size:25px;
+}
+
+.shadow{
+	text-shadow:5px 0 5px skyblue;
+	text-decoration:underline;
+	font-family:book antiqua;
+	font-size:30px;
+	font-weight:bold;
+}
+
+.skillList{
+	list-style:square;
+}
+
+
+
+	
